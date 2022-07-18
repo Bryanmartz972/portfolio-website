@@ -5,18 +5,22 @@ import ResponsiveDiv from './ResponsiveDiv'
 const AboutMe = () => {
 	return (
 		<section id='about-me' className='flex flex-col items-center py-8'>
-			<h2 className='text-3xl font-bold '>About Me</h2>
+			<div>
+				<h2 className='text-3xl font-bold'>About Me</h2>
+			</div>
 			<ResponsiveDiv>
 				<div className='flex flex-col items-center lg:flex-row'>
 					<div className='pt-16 translate-x-[-3.125rem] lg:translate-x-0 lg:w-full'>
 						<img
 							src={BryanPicture2}
 							alt=''
+							loading='lazy'
 							className='bg-primary rounded-full border-white border-2 w-44 md:w-56 lg:w-96'
 						/>
 						<img
 							src={BryanPicture}
 							alt=''
+							loading='lazy'
 							className='translate-y-[-5rem] translate-x-[6.25rem] bg-secondary rounded-full border-white border-2 w-44 md:w-56 lg:w-96 '
 						/>
 					</div>
@@ -36,7 +40,7 @@ const AboutMe = () => {
 										- Bachelor in Science and Humanities
 									</span>
 								</h4>
-								<p>2005 - 2018</p>
+								<p>2018</p>
 								<p>
 									Global score: <span className='font-bold'>94%</span>
 								</p>
@@ -50,7 +54,7 @@ const AboutMe = () => {
 								</h4>
 								<p>2018 - 2022</p>
 								<p>
-									Global score: <span className='  font-bold'>91.44%</span>
+									Global score: <span className='font-bold'>91.44%</span>
 								</p>
 							</div>
 						</div>
