@@ -1,6 +1,7 @@
 {
 	"name": "portfolio-website",
 	"private": true,
+	"homepage": "https://bryanmartz972.github.io",
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
@@ -8,7 +9,8 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"format": "prettier --write .",
-		"lint": "eslint --fix . --ext .js,.jsx"
+		"lint": "eslint --fix . --ext .js,.jsx",
+		"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
 		"react": "^18.2.0",
