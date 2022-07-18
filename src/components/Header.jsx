@@ -3,7 +3,7 @@ import BryanLogo from '../assets/images/bryan-logo.png'
 
 const Header = () => {
 	return (
-		<header className='hidden w-full h-[62px] sm:flex sm:fixed bg-primary text-white items-center justify-between px-8 font-black'>
+		<header className='hidden w-full h-[62px] sm:z-10 sm:flex sm:fixed bg-primary text-white items-center justify-between px-8 font-black'>
 			<a href='#home'>
 				<img src={BryanLogo} alt='' className='h-[62px] object-none' />
 			</a>

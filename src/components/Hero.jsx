@@ -1,4 +1,4 @@
-import Button from './Button'
+import { Button } from './Button'
 import ResponsiveDiv from './ResponsiveDiv'
 import GuyVibing from '../assets/images/guy-vibing.png'
 

@@ -76,7 +76,9 @@ const Skills = () => {
 			</ResponsiveDiv>
 			<ResponsiveDiv>
 				<div className='flex flex-col w-full bg-secondary h-fit py-8 mt-8 rounded-3xl px-4'>
-					<h3 className='font-bold text-2xl self-center mb-4'>Technical Skills</h3>
+					<h3 className='font-bold text-2xl self-center mb-4'>
+						Technical Skills
+					</h3>
 					<div className='flex flex-col lg:flex-row gap-5'>
 						<div className='flex flex-col flex-1 bg-background rounded-xl py-4'>
 							<h4 className='font-bold text-xl self-center mb-4'>Frontend</h4>
