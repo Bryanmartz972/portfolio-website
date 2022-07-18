@@ -10,20 +10,24 @@ const BottomNavigation = () => {
 	return (
 		<nav className='z-10 flex justify-around fixed bottom-0 left-0 bg-primary h-[54px] w-full sm:hidden'>
 			<BottomNavigationLink
-				linkTo={'#about-me'}
-				icon={<FaUser size='2em' color='white' />}
+				linkTo='#about-me'
+				icon={<FaUser size='1em' color='white' />}
+				text='About Me'
 			/>
 			<BottomNavigationLink
-				linkTo={'#skills'}
-				icon={<FaChartLine size='2em' color='white' />}
+				linkTo='#skills'
+				icon={<FaChartLine size='1em' color='white' />}
+				text='Skills'
 			/>
 			<BottomNavigationLink
-				linkTo={'#projects'}
-				icon={<FaRegFolderOpen size='2em' color='white' />}
+				linkTo='#projects'
+				icon={<FaRegFolderOpen size='1em' color='white' />}
+				text='Projects'
 			/>
 			<BottomNavigationLink
-				linkTo={'#contact-me'}
-				icon={<FaRegEnvelope size='2em' color='white' />}
+				linkTo='#contact-me'
+				icon={<FaRegEnvelope size='1em' color='white' />}
+				text='Contact Me'
 			/>
 		</nav>
 	)
