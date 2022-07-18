@@ -1,6 +1,6 @@
 const ResponsiveDiv = ({children}) => {
 	return (
-		<div className='flex w-full items-center flex-col lg:flex-row lg:w-fit px-[10%]'>
+		<div className='flex w-full lg:h-full items-center flex-col lg:flex-row px-[10%]'>
 			{children}
 		</div>
 	)
