@@ -1,6 +1,6 @@
 import Button from './Button'
-import BryanPicture from '../assets/images/bryan.png'
 import ResponsiveDiv from './ResponsiveDiv'
+import GuyVibing from '../assets/images/guy-vibing.png'
 
 const Hero = () => {
 	return (
@@ -18,9 +18,9 @@ const Hero = () => {
 						<Button linkTo={''} text={'My Resumé'} />
 					</div>
 				</div>
-				{/* <div className=''>
-					<img src={BryanPicture} alt='' />
-				</div> */}
+				<div className='flex items-center w-[100%] mt-8 lg:mt-0'>
+					<img src={GuyVibing} alt='' />
+				</div>
 			</ResponsiveDiv>
 		</section>
 	)
