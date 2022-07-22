@@ -1,7 +1,7 @@
 import ResponsiveDiv from './ResponsiveDiv'
 import ProjectCard from './ProjectCard'
 import CommentNowFrontend from '../assets/images/commentnow-frontend-photo-gimp.png'
-import CommentNowBackend from '../assets/images/commentnow-backend-photo.png'
+import CamiDental from '../assets/images/Camidental.jpeg'
 import PrometheusBackend from '../assets/images/prometheus-backend-photo.jpg'
 import PrometheusFrontend from '../assets/images/prometheus-frontend-photo.png'
 import IglesiaSanIsidro from '../assets/images/iglesia-san-isidro.png'
@@ -56,6 +56,13 @@ const Projects = () => {
 						linkTo='https://github.com/Bryanmartz972/ProyectoMovil2'
 						info='This is a NodeJS application made with Express and MySQL. This is a REST API that was created for the Prometheus App created with React Native. What this API did is that it fetches data from a MySQL database containing information about clothing products. It includes Tokens for the sign in and validations for the backend.'
 						image={PrometheusBackend}
+					/>
+					<ProjectCard
+						text={['C#', 'AWS', 'SQL Server', 'Python']}
+						title='Camidental Dekstop App'
+						linkTo='https://drive.google.com/file/d/1vEIlmbFW4EKeNlWsP-nX208dHf_mdKpu/view?usp=sharing'
+						info='This is a Dekstop app created for a dental clinic named CamiDental. It was developed by a team of 11 people. It handles the appointments of the patients, the products and inventory that the clinic has. It also handles reports with CrystalReports and the billing of customers. It was connected to the database via AWS and the appointments were also stored in Google Calendar via its API.'
+						image={CamiDental}
 					/>
 				</div>
 			</ResponsiveDiv>
