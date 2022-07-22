@@ -1,5 +1,12 @@
 import ResponsiveDiv from './ResponsiveDiv'
 import ProjectCard from './ProjectCard'
+import CommentNowFrontend from '../assets/images/commentnow-frontend-photo-gimp.png'
+import CommentNowBackend from '../assets/images/commentnow-backend-photo.png'
+import PrometheusBackend from '../assets/images/prometheus-backend-photo.jpg'
+import PrometheusFrontend from '../assets/images/prometheus-frontend-photo.png'
+import IglesiaSanIsidro from '../assets/images/iglesia-san-isidro.png'
+import PortfolioWebsite from '../assets/images/portfolio-website.png'
+import TwitterUIMirroring from '../assets/images/twitter-ui-mirroring.png'
 
 const Projects = () => {
 	return (
@@ -11,31 +18,36 @@ const Projects = () => {
 						text={['React', 'Redux', 'Css']}
 						title='CommentNow'
 						linkTo='https://github.com/Bryanmartz972/commentnow-frontend'
-						info='Esta es una aplicación móvil elaborada para la clase de Programación Móvil 2. Esta es la primera aplicación que realice con React Native. Este proyecto fue hecho por un equipo de tres personas lideradas por mí.'
+						info=''
+						image={CommentNowFrontend}
 					/>
 					<ProjectCard
 						text={['React Native', 'API']}
 						title='Prometheus App'
 						linkTo='https://github.com/Bryanmartz972/ProyectoMovil2ReactUsuario'
-						info=''
+						info='This is a mobile application that allows users to buy clothing items and sneakers. It is a React Native application with Expo that fetches to an API developed by a team leaded by me. It includes a login system, a cart system and search products system.'
+						image={PrometheusFrontend}
 					/>
 					<ProjectCard
 						text={['React', 'TailwindCSS']}
 						title='Portfolio Website'
 						linkTo='https://github.com/Bryanmartz972/portfolio-website'
 						info=''
+						image={PortfolioWebsite}
 					/>
 					<ProjectCard
 						text={['HTML', 'CSS', 'JavaScript']}
 						title='Iglesia San Isidro'
 						linkTo='https://github.com/Bryanmartz972/IglesiaSanIsidro_PW1'
 						info=''
+						image={IglesiaSanIsidro}
 					/>
 					<ProjectCard
-						text={['React', 'TailwindCSS']}
-						title='Portfolio Website'
-						linkTo='https://github.com/Bryanmartz972/commentnow-frontend'
-						info=''
+						text={['React', 'TailwindCSS', 'MaterialUI']}
+						title='Twitter UI Mirror'
+						linkTo='https://github.com/Bryanmartz972/twitter-ui-mirroring'
+						info='This is a React application that recreates the Twitter UI. It is still in progress since it only supports mobile viewport. It was developed and design by eyeing the Twitter UI and then applying the same principles to a React application. I am planning to finish it and include functioanl features like the likes interaction and more viewports.'
+						image={TwitterUIMirroring}
 					/>
 
 					<ProjectCard
@@ -43,6 +55,7 @@ const Projects = () => {
 						title='Prometheus API'
 						linkTo='https://github.com/Bryanmartz972/ProyectoMovil2'
 						info=''
+						image={PrometheusBackend}
 					/>
 				</div>
 			</ResponsiveDiv>

@@ -9,8 +9,13 @@ const ProjectCard = ({ title, info, text, image, linkTo }) => {
 				<div className='w-3 h-3 mr-2 rounded-full bg-[#ffbd44]'></div>
 				<div className='w-3 h-3 rounded-full bg-[#00ca4e]'></div>
 			</div>
-			<div className='bg-red-500 w-full h-36'>
-				<img src='' className='w-full' alt='' />
+			<div className='h-36'>
+				<img
+					src={image}
+					className='h-36 w-full object-cover brightness-90'
+					alt=''
+					loading='lazy'
+				/>
 			</div>
 			<div className='px-2 pb-4'>
 				<h3 className='font-bold text-2xl py-2'>{title}</h3>
