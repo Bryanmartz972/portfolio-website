@@ -32,14 +32,14 @@ const Projects = () => {
 						text={['React', 'TailwindCSS']}
 						title='Portfolio Website'
 						linkTo='https://github.com/Bryanmartz972/portfolio-website'
-						info=''
+						info='This is the portfolio website that you are seing right now. It was made for the purpose of conveying information about me in a different way than a resume. It is a React app made with Vite and Tailwind CSS. For all of the icons I used the react-icons npm package. It uses Pageclip for the form to send messages to my email.'
 						image={PortfolioWebsite}
 					/>
 					<ProjectCard
 						text={['HTML', 'CSS', 'JavaScript']}
 						title='Iglesia San Isidro'
 						linkTo='https://github.com/Bryanmartz972/IglesiaSanIsidro_PW1'
-						info=''
+						info='This is a static website that was made in a team of developers led by me. It is a website that was made for presenting information about a fictioal church. This was my first website that I ever created, made with pure HTML and CSS.'
 						image={IglesiaSanIsidro}
 					/>
 					<ProjectCard
@@ -54,7 +54,7 @@ const Projects = () => {
 						text={['NodeJS', 'Express', 'MySQL']}
 						title='Prometheus API'
 						linkTo='https://github.com/Bryanmartz972/ProyectoMovil2'
-						info=''
+						info='This is a NodeJS application made with Express and MySQL. This is a REST API that was created for the Prometheus App created with React Native. What this API did is that it fetches data from a MySQL database containing information about clothing products. It includes Tokens for the sign in and validations for the backend.'
 						image={PrometheusBackend}
 					/>
 				</div>
