@@ -18,14 +18,14 @@ const Projects = () => {
 						text={['React', 'Redux', 'Css']}
 						title='CommentNow'
 						linkTo='https://github.com/Bryanmartz972/commentnow-frontend'
-						info=''
+						info='This is a web app that allows users to post comments and other people liking those posts. It is a React app with a Redux store. It includes a login, signup, and profile page. It includes the functionality of posting and liking other people posts. It is connected to a REST API that was created by a team of developers led by me.'
 						image={CommentNowFrontend}
 					/>
 					<ProjectCard
 						text={['React Native', 'API']}
 						title='Prometheus App'
 						linkTo='https://github.com/Bryanmartz972/ProyectoMovil2ReactUsuario'
-						info='This is a mobile application that allows users to buy clothing items and sneakers. It is a React Native application with Expo that fetches to an API developed by a team leaded by me. It includes a login system, a cart system and search products system.'
+						info='This is a mobile application that allows users to buy clothing items and sneakers. It is a React Native application with Expo that fetches to an API developed by a team led by me. It includes a login system, a cart system and search products system.'
 						image={PrometheusFrontend}
 					/>
 					<ProjectCard
