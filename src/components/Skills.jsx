@@ -8,6 +8,9 @@ import {
 	TbUserCheck,
 } from 'react-icons/tb'
 
+import { BsPuzzle, BsBarChartLine } from 'react-icons/bs'
+import { BiBrain } from 'react-icons/bi'
+
 import { icons } from '../helpers/iconsImport'
 
 const Skills = () => {
@@ -48,6 +51,24 @@ const Skills = () => {
 									<TbUsers color='white' />{' '}
 								</span>
 								Ease of working in a team
+							</p>
+							<p className='flex items-center font-bold'>
+								<span className='mr-2'>
+									<BsBarChartLine color='white' />{' '}
+								</span>
+								Continuous improvement
+							</p>
+							<p className='flex items-center font-bold'>
+								<span className='mr-2'>
+									<BsPuzzle color='white' />{' '}
+								</span>
+								Adaptability
+							</p>
+							<p className='flex items-center font-bold'>
+								<span className='mr-2'>
+									<BiBrain color='white' />{' '}
+								</span>
+								Willing to learn
 							</p>
 						</div>
 					</div>
