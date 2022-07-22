@@ -1,6 +1,7 @@
 import { Button } from './Button'
 import ResponsiveDiv from './ResponsiveDiv'
 import GuyVibing from '../assets/images/guy-vibing.png'
+import Resume from '../assets/cv-bryan-martinez.pdf'
 
 const Hero = () => {
 	return (
@@ -15,7 +16,7 @@ const Hero = () => {
 					</h1>
 					<p className='font-bold text-2xl mb-4'>Fullstack Web Developer</p>
 					<div className='w-full flex items-center '>
-						<Button linkTo={''} text={'My Resumé'} />
+						<Button linkTo={Resume} text={'My Resumé'} />
 					</div>
 				</div>
 				<div className='flex items-center w-[100%] mt-8 lg:mt-0'>
