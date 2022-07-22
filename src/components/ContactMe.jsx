@@ -57,7 +57,7 @@ const ContactMe = () => {
 									name='name'
 									id='name'
 									className='input'
-									type='email'
+									type='name'
 									required
 								/>
 							</div>
