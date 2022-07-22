@@ -74,23 +74,25 @@ const Skills = () => {
 					</div>
 					<div className=' flex flex-col flex-1 p-4 px-8 lg:p-8 bg-primary shadow-xl rounded-3xl'>
 						<h3 className='font-bold text-2xl self-center'>Languages</h3>
-						<div className='pt-4'>
-							<p className='flex items-center font-bold'>
-								<span className='mr-2'>
-									<FaFontAwesomeFlag color='white' />{' '}
-								</span>
-								Spanish
-							</p>
-							<p>Native - CEFR Level C2</p>
-						</div>
-						<div className='my-4 lg:my-8'>
-							<p className='flex items-center font-bold'>
-								<span className='mr-2'>
-									<FaFontAwesomeFlag color='white' />{' '}
-								</span>
-								English
-							</p>
-							<p>Advanced - CEFR Level C1</p>
+						<div className='flex flex-col justify-center h-full'>
+							<div className='pt-4'>
+								<p className='flex items-center font-bold'>
+									<span className='mr-2'>
+										<FaFontAwesomeFlag color='white' />{' '}
+									</span>
+									Spanish
+								</p>
+								<p>Native - CEFR Level C2</p>
+							</div>
+							<div className='my-4 lg:my-8'>
+								<p className='flex items-center font-bold'>
+									<span className='mr-2'>
+										<FaFontAwesomeFlag color='white' />{' '}
+									</span>
+									English
+								</p>
+								<p>Advanced - CEFR Level C1</p>
+							</div>
 						</div>
 					</div>
 				</div>

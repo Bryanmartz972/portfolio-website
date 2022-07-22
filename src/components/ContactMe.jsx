@@ -1,6 +1,7 @@
 import ResponsiveDiv from './ResponsiveDiv'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import { SiGmail } from 'react-icons/si'
+import { FiSend } from 'react-icons/fi'
 
 const ContactMe = () => {
 	return (
@@ -9,10 +10,9 @@ const ContactMe = () => {
 			className='flex flex-col items-center py-8 bg-gradient-to-b text-white from-background to-primary'>
 			<h2 className='text-3xl font-bold'>Contact Me</h2>
 			<ResponsiveDiv>
-				<div className='flex flex-col mt-4 lg:mt-8 lg:flex-row lg:justify-between lg:gap-20 w-full'>
+				<div className='flex flex-col lg:flex-row lg:justify-between lg:gap-20 w-full'>
 					<div className='flex flex-col p-4 mb-8 lg:mb-0 px-8 lg:p-8 flex-1'>
-						<h3 className='font-bold text-2xl self-center'>My socials</h3>
-						<div className='flex flex-col mt-8 gap-12'>
+						<div className='flex flex-col mt-8 gap-12 lg:h-full lg:justify-center'>
 							<a
 								href='https://github.com/Bryanmartz972'
 								target='_blank'
@@ -46,14 +46,53 @@ const ContactMe = () => {
 						</div>
 					</div>
 					<div className='flex flex-col p-4 mb-8 lg:mb-0 px-8 lg:p-8 flex-1'>
-						<h3 className='font-bold text-2xl self-center'>Send me an email</h3>
 						<form
 							action='https://send.pageclip.co/h6D7DmZLqo3N7UXRwvbeSICeNi1I7dd6/contact-form'
-							method='post'>
-							<input type='text' name='name' placeholder='name' />
-							<input type='email' name='email' placeholder='email' />
-							<button type='submit' className=''>
-								<span>Send</span>
+							method='post'
+							className='flex flex-col w-full gap-8 mt-8'>
+							<div className='input-group'>
+								<label className='label'>Your Name</label>
+								<input
+									autoComplete='off'
+									name='name'
+									id='name'
+									className='input'
+									type='email'
+									required
+								/>
+							</div>
+							<div className='input-group'>
+								<label className='label'>Your email</label>
+								<input
+									autoComplete='off'
+									name='email'
+									id='email'
+									className='input'
+									type='email'
+									required
+								/>
+							</div>
+							<div className='input-group'>
+								<label className='label'>Your message</label>
+								<textarea
+									autoComplete='off'
+									rows='4'
+									name='text'
+									id='text'
+									className='input area'
+									type='text'
+									required
+								/>
+							</div>
+							<button
+								type='submit'
+								className='flex w-full items-center justify-center mt-4 bg-secondary rounded-xl py-3 sm:py-2 px-4 font-bold hover:shadow-white/10 hover:shadow-lg hover:bg-white hover:text-secondary transition-all'>
+								<span className=' inline-flex items-center'>
+									<span className='mr-4'>
+										<FiSend size='1rem' />
+									</span>
+									Send
+								</span>
 							</button>
 						</form>
 					</div>
