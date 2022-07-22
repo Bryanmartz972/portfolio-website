@@ -37,8 +37,8 @@ const ContactMe = () => {
 								href='mailto:bryanmartz972@gmail.com'
 								target='_blank'
 								rel='noopener noreferrer'
-								className='flex items-center justify-center bg-[#eb4336] rounded-xl py-3 sm:py-2 px-4 font-bold hover:text-[#eb4336] hover:shadow-white/10 hover:shadow-lg hover:bg-white transition-all'>
-								<span className='mr-2'>
+								className='flex items-center justify-center bg-[#eb4336] text-xs sm:text-[16px] rounded-xl py-3 sm:py-2 px-4 font-bold hover:text-[#eb4336] hover:shadow-white/10 hover:shadow-lg hover:bg-white transition-all'>
+								<span className=' mr-2'>
 									<SiGmail size='24px' />
 								</span>
 								bryanmartz972@gmail.com
