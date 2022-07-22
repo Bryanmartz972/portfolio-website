@@ -9,7 +9,7 @@ import ResponsiveDiv from './ResponsiveDiv'
 const AboutMe = () => {
 	return (
 		<section id='about-me' className='flex flex-col items-center py-8'>
-			<div>
+			<div className='  justify-self-center place-self-center self-center lg:mb-8'>
 				<h2 className='text-3xl font-bold'>About Me</h2>
 			</div>
 			<ResponsiveDiv>
@@ -38,10 +38,32 @@ const AboutMe = () => {
 					</div>
 					<div className='flex flex-col lg:ml-36 text-md md:text-lg lg:text-xl'>
 						<p className='mb-8'>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-							Veritatis quae aut non necessitatibus quo, delectus eum dolore
-							recusandae. Doloribus tenetur nostrum eos consequuntur quibusdam
-							velit officia veniam soluta vel alias?
+							Hello, my name is Bryan Martínez and currently I'm a senior
+							student in Computer Science at Universidad Catolica de Honduras.
+							From the beginning of my university career I really enjoy
+							programming and developing solutions and answers to problems with
+							the use of tehcnology and programming languages. <br />
+							<br />
+							Web development is what I do the most, I am a React.js developer
+							eager to learn more about the ecosystem.
+							<br />
+							I'm excited to work in a company that develops software and also
+							excited to work with a team to develop solutions to people. <br />{' '}
+							I'm always looking for new ways to improve my skills and knowledge
+							so I take many courses, tutorials and documentation for improving
+							my knowledge. You can see my certificates in my{' '}
+							<a
+								href='#contact-me'
+								className='text-secondary underline font-bold'>
+								LinkedIn
+							</a>{' '}
+							and my projects in my{' '}
+							<a
+								href='#contact-me'
+								className='text-secondary underline font-bold'>
+								Github
+							</a>{' '}
+							profile.
 						</p>
 						<h3 className='font-bold text-2xl self-center'>Education</h3>
 						<div className='lg:pt-8'>
