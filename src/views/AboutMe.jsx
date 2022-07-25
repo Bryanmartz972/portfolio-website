@@ -71,7 +71,7 @@ const AboutMe = () => {
 								<h4 className='font-bold lg:text-xl'>
 									Delaware American School{' '}
 									<span className='text-white font-normal'>
-										- Bachelor in Science and Humanities
+										- Diploma in Science and Humanities
 									</span>
 								</h4>
 								<p>2018</p>
