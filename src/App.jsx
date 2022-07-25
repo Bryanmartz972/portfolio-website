@@ -8,6 +8,8 @@ import Certifications from './components/Certifications'
 import Projects from './views/Projects'
 import ContactMe from './views/ContactMe'
 
+
+
 function App() {
 	return (
 		<>
