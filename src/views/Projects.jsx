@@ -15,7 +15,7 @@ const Projects = () => {
 			<ResponsiveDiv>
 				<div className='grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full'>
 					<ProjectCard
-						text={['React', 'Redux', 'Css']}
+						text={['React', 'Redux', 'Css', 'MongoDB']}
 						title='CommentNow'
 						linkTo='https://github.com/Bryanmartz972/commentnow-frontend'
 						info='This is a web app that allows users to post comments and other people liking those posts. It is a React app with a Redux store. It includes a login, signup, and profile page. It includes the functionality of posting and liking other people posts. It is connected to a REST API that was created by a team of developers led by me.'
