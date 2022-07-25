@@ -102,35 +102,73 @@ const Skills = () => {
 					<h3 className='font-bold text-2xl self-center mb-4'>
 						Technical Skills
 					</h3>
-					<div className='flex flex-col lg:flex-row gap-5'>
-						<div className='flex flex-col flex-1 bg-background rounded-xl py-4'>
-							<h4 className='font-bold text-xl self-center mb-4'>Frontend</h4>
-							<div className='grid grid-cols-2 place-items-center my-auto gap-4'>
-								<img src={icons.HTML} alt='' width={'60px'} />
-								<img src={icons.CSS} alt='' width={'60px'} />
-								<img src={icons.React} alt='' width={'60px'} />
-								<img src={icons.Javascript} alt='' width={'60px'} />
-								<img src={icons.TailwindCSS} alt='' width={'60px'} />
-								<img src={icons.ReactNative} alt='' width={'60px'} />
-							</div>
-						</div>
-						<div className='flex flex-col flex-1 bg-background rounded-xl py-4'>
-							<h4 className='font-bold text-xl self-center mb-4'>Backend</h4>
-							<div className='grid grid-cols-2 place-items-center my-auto gap-4'>
-								<img src={icons.NodeJS} alt='' width={'60px'} />
-								<img src={icons.MySQL} alt='' width={'60px'} />
-								<img src={icons.MongoDB} alt='' width={'60px'} />
-								<img src={icons.SQL} alt='' width={'60px'} />
-							</div>
-						</div>
-						<div className='flex flex-col flex-1 bg-background rounded-xl py-4'>
-							<h4 className='font-bold text-xl self-center mb-4'>Tools</h4>
-							<div className='grid grid-cols-2 place-items-center gap-4'>
-								<img src={icons.Git} alt='' width={'60px'} />
-								<img src={icons.Github} alt='' width={'60px'} />
-								<img src={icons.VSCode} alt='' width={'60px'} />
-								<img src={icons.Figma} alt='' width={'60px'} />
-								<img src={icons.Postman} alt='' width={'60px'} />
+					<div className='flex lg:flex-row gap-5'>
+						<div className='flex flex-1 bg-background rounded-xl py-4'>
+							<div className='flex flex-row mx-4 gap-6 justify-center lg:gap-14 flex-wrap'>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.React} alt='' width={'50px'} />
+									<p className='font-bold'>React</p>
+								</div>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.Javascript} alt='' width={'50px'} />
+									<p className='font-bold'>Javascript</p>
+								</div>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.HTML} alt='' width={'50px'} />
+									<p className='font-bold'>HTML</p>
+								</div>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.TailwindCSS} alt='' width={'50px'} />
+									<p className='font-bold'>TailwindCSS</p>
+								</div>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.ReactNative} alt='' width={'50px'} />
+									<p className='font-bold'>React Native</p>
+								</div>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.CSS} alt='' width={'50px'} />
+									<p className='font-bold'>CSS</p>
+								</div>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.MongoDB} alt='' width={'50px'} />
+									<p className='font-bold'>MongoDB</p>
+								</div>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.MySQL} alt='' width={'50px'} />
+									<p className='font-bold'>MySQL</p>
+								</div>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.SQL} alt='' width={'50px'} />
+									<p className='font-bold'>SQL Server</p>
+								</div>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.NodeJS} alt='' width={'50px'} />
+									<p className='font-bold'>NodeJS</p>
+								</div>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.VSCode} alt='' width={'50px'} />
+									<p className='font-bold'>Visual Studio Code</p>
+								</div>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.Git} alt='' width={'50px'} />
+									<p className='font-bold'>Git</p>
+								</div>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.Github} alt='' width={'50px'} />
+									<p className='font-bold'>Github</p>
+								</div>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.Figma} alt='' width={'50px'} />
+									<p className='font-bold'>Figma</p>
+								</div>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.Postman} alt='' width={'50px'} />
+									<p className='font-bold'>Postman</p>
+								</div>
+								<div className='flex flex-col items-center justify-center'>
+									<img src={icons.AWS} alt='' width={'50px'} />
+									<p className='font-bold'>Amazon Web Services</p>
+								</div>
 							</div>
 						</div>
 					</div>

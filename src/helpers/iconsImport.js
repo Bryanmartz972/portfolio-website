@@ -13,6 +13,7 @@ import SQL from '../assets/svgs/sql.svg'
 import TailwindCSS from '../assets/svgs/tailwind-css.svg'
 import VSCode from '../assets/svgs/visual-studio-code.svg'
 import ReactNative from '../assets/images/react-native.png'
+import AWS from '../assets/svgs/aws.svg'
 
 export const icons = {
 	HTML,
@@ -29,5 +30,6 @@ export const icons = {
 	SQL,
 	TailwindCSS,
 	VSCode,
-  ReactNative
+  ReactNative,
+	AWS
 }
