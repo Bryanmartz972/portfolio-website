@@ -1,4 +1,4 @@
-import ResponsiveDiv from './ResponsiveDiv'
+import ResponsiveDiv from '../components/ResponsiveDiv'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import { SiGmail } from 'react-icons/si'
 import { FiSend } from 'react-icons/fi'

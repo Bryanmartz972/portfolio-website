@@ -1,5 +1,5 @@
-import { Button } from './Button'
-import ResponsiveDiv from './ResponsiveDiv'
+import { Button } from '../components/Button'
+import ResponsiveDiv from '../components/ResponsiveDiv'
 import GuyVibing from '../assets/images/guy-vibing.png'
 import Resume from '../assets/cv-bryan-martinez.pdf'
 

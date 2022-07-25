@@ -1,4 +1,4 @@
-import ResponsiveDiv from './ResponsiveDiv'
+import ResponsiveDiv from '../components/ResponsiveDiv'
 import { FaFontAwesomeFlag } from 'react-icons/fa'
 import {
 	TbTrophy,

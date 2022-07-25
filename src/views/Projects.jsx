@@ -1,5 +1,5 @@
-import ResponsiveDiv from './ResponsiveDiv'
-import ProjectCard from './ProjectCard'
+import ResponsiveDiv from '../components/ResponsiveDiv'
+import ProjectCard from '../components/ProjectCard'
 import CommentNowFrontend from '../assets/images/commentnow-frontend-photo-gimp.png'
 import CamiDental from '../assets/images/Camidental.jpeg'
 import PrometheusBackend from '../assets/images/prometheus-backend-photo.jpg'

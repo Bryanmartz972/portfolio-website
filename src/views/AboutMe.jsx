@@ -4,7 +4,7 @@ import BryanOnePng from '../assets/images/bryan-aboutme-one.png'
 import BryanTwoAvif from '../assets/images/bryan-aboutme-two.avif'
 import BryanTwoWebp from '../assets/images/bryan-aboutme-two.webp'
 import BryanTwoPng from '../assets/images/bryan-aboutme-two.png'
-import ResponsiveDiv from './ResponsiveDiv'
+import ResponsiveDiv from '../components/ResponsiveDiv'
 
 const AboutMe = () => {
 	return (

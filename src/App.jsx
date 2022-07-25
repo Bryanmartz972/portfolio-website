@@ -1,12 +1,12 @@
 import PageLayout from './components/PageLayout'
 import Header from './components/Header'
-import Hero from './components/Hero'
+import Hero from './views/Hero'
 import BottomNavigation from './components/BottomNavigation'
-import AboutMe from './components/AboutMe'
-import Skills from './components/Skills'
+import AboutMe from './views/AboutMe'
+import Skills from './views/Skills'
 import Certifications from './components/Certifications'
-import Projects from './components/Projects'
-import ContactMe from './components/ContactMe'
+import Projects from './views/Projects'
+import ContactMe from './views/ContactMe'
 
 function App() {
 	return (
@@ -15,7 +15,6 @@ function App() {
 			<PageLayout>
 				<Hero />
 				<AboutMe />
-				<Certifications />
 				<Skills />
 				<Projects />
 			</PageLayout>
