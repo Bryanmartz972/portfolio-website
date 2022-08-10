@@ -1,12 +1,12 @@
 import ResponsiveDiv from '../components/ResponsiveDiv'
 import ProjectCard from '../components/ProjectCard'
-import CommentNowFrontend from '../assets/images/commentnow-frontend-photo-gimp.png'
-import CamiDental from '../assets/images/Camidental.jpeg'
-import PrometheusBackend from '../assets/images/prometheus-backend-photo.jpg'
-import PrometheusFrontend from '../assets/images/prometheus-frontend-photo.png'
-import IglesiaSanIsidro from '../assets/images/iglesia-san-isidro.png'
-import PortfolioWebsite from '../assets/images/portfolio-website.png'
-import TwitterUIMirroring from '../assets/images/twitter-ui-mirroring.png'
+import CommentNowFrontend from '../assets/images/projects/commentnow-frontend-project.webp'
+import CamiDental from '../assets/images/projects/camidental-project.webp'
+import PrometheusBackend from '../assets/images/projects/prometheus-backend-project.webp'
+import PrometheusFrontend from '../assets/images/projects/prometheus-frontend-project.webp'
+import IglesiaSanIsidro from '../assets/images/projects/iglesia-san-isidro-project.webp'
+import PortfolioWebsite from '../assets/images/projects/portfolio-website-project.webp'
+import TwitterUIMirroring from '../assets/images/projects/twitter-ui-mirroring-project.webp'
 
 const Projects = () => {
 	return (

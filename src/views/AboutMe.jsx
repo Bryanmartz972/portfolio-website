@@ -1,9 +1,7 @@
-import BryanOneAvif from '../assets/images/bryan-aboutme-one.avif'
-import BryanOneWebp from '../assets/images/bryan-aboutme-one.webp'
-import BryanOnePng from '../assets/images/bryan-aboutme-one.png'
-import BryanTwoAvif from '../assets/images/bryan-aboutme-two.avif'
-import BryanTwoWebp from '../assets/images/bryan-aboutme-two.webp'
-import BryanTwoPng from '../assets/images/bryan-aboutme-two.png'
+import BryanOneAvif from '../assets/images/aboutme/bryan-one.avif'
+import BryanOneWebp from '../assets/images/aboutme/bryan-one.webp'
+import BryanTwoAvif from '../assets/images/aboutme/bryan-two.avif'
+import BryanTwoWebp from '../assets/images/aboutme/bryan-two.webp'
 import ResponsiveDiv from '../components/ResponsiveDiv'
 
 const AboutMe = () => {
@@ -17,9 +15,8 @@ const AboutMe = () => {
 					<div className='pt-16 translate-x-[-3.125rem] lg:translate-x-0 lg:w-full'>
 						<picture>
 							<source type='image/avif' srcSet={BryanTwoAvif} />
-							<source type='image/webp' srcSet={BryanTwoWebp} />
 							<img
-								src={BryanTwoPng}
+								src={BryanTwoWebp}
 								alt=''
 								loading='lazy'
 								className='bg-primary rounded-full border-white border-2 w-44 md:w-56 lg:w-96'
@@ -27,9 +24,8 @@ const AboutMe = () => {
 						</picture>
 						<picture>
 							<source type='image.avif' srcSet={BryanOneAvif} />
-							<source type='image.webp' srcSet={BryanOneWebp} />
 							<img
-								src={BryanOnePng}
+								src={BryanOneWebp}
 								alt=''
 								loading='lazy'
 								className='translate-y-[-5rem] translate-x-[6.25rem] bg-secondary rounded-full border-white border-2 w-44 md:w-56 lg:w-96'

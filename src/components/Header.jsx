@@ -1,5 +1,5 @@
 import HeaderLink from './HeaderLink'
-import BryanLogo from '../assets/images/bryan-logo.png'
+import BryanLogo from '../assets/images/header/bryan-logo.webp'
 
 const Header = () => {
 	return (

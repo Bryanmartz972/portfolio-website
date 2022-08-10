@@ -1,6 +1,6 @@
 import { Button } from '../components/Button'
 import ResponsiveDiv from '../components/ResponsiveDiv'
-import GuyVibing from '../assets/images/guy-vibing.png'
+import GuyVibing from '../assets/images/hero/guy-vibing.webp'
 import Resume from '../assets/cv-bryan-martinez.pdf'
 
 const Hero = () => {
