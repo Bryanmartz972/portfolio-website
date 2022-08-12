@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 const ProjectCardTech = ({ text }) => {
 	return (
 		<div
@@ -5,6 +7,10 @@ const ProjectCardTech = ({ text }) => {
 			<span>{text}</span>
 		</div>
 	)
+}
+
+ProjectCardTech.propTypes = {
+	text: PropTypes.string.isRequired,
 }
 
 export default ProjectCardTech

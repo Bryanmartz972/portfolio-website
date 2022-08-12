@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 const HeaderLink = ({ linkTo, children }) => {
 	return (
 		<a
@@ -6,6 +8,11 @@ const HeaderLink = ({ linkTo, children }) => {
 			{children}
 		</a>
 	)
+}
+
+HeaderLink.propTypes = {
+	linkTo: PropTypes.string.isRequired,
+	children: PropTypes.node.isRequired,
 }
 
 export default HeaderLink

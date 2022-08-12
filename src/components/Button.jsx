@@ -1,4 +1,5 @@
 import { FaGithub } from 'react-icons/fa'
+import PropTypes from 'prop-types'
 
 const Button = ({ linkTo, text }) => {
 	return (
@@ -22,6 +23,15 @@ const GithubButton = ({ linkTo }) => {
 			<FaGithub size='1rem' /> <span className='ml-2'>Github</span>
 		</a>
 	)
+}
+
+Button.propTypes = {
+	linkTo: PropTypes.string.isRequired,
+	text: PropTypes.string.isRequired,
+}
+
+GithubButton.propTypes = {
+	linkTo: PropTypes.string.isRequired,
 }
 
 export { Button, GithubButton }

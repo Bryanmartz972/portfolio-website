@@ -1,5 +1,6 @@
 import ProjectCardTech from './ProjectCardTech'
 import { GithubButton } from './Button'
+import PropTypes from 'prop-types'
 
 const ProjectCard = ({ title, info, text, image, linkTo }) => {
 	return (
@@ -31,6 +32,14 @@ const ProjectCard = ({ title, info, text, image, linkTo }) => {
 			</div>
 		</div>
 	)
+}
+
+ProjectCard.propTypes = {
+	title: PropTypes.string.isRequired,
+	info: PropTypes.string.isRequired,
+	text: PropTypes.arrayOf(PropTypes.string).isRequired,
+	image: PropTypes.string.isRequired,
+	linkTo: PropTypes.string.isRequired,
 }
 
 export default ProjectCard
