@@ -14,7 +14,7 @@ const ContactMe = () => {
 					<div className='flex flex-col p-4 mb-8 lg:mb-0 px-8 lg:p-8 flex-1'>
 						<div className='flex flex-col mt-8 gap-12 lg:h-full lg:justify-center'>
 							<a
-								href='https://github.com/Bryanmartz972'
+								href='https://github.com/thebryanmartinez'
 								target='_blank'
 								rel='noopener noreferrer'
 								className='flex items-center justify-center bg-[#161b22] rounded-xl py-3 sm:py-2 px-4 font-bold hover:text-[#161b22] hover:shadow-white/10 hover:shadow-lg hover:bg-white transition-all'>
@@ -24,7 +24,7 @@ const ContactMe = () => {
 								Visit my Github
 							</a>
 							<a
-								href='https://www.linkedin.com/in/bryanmartinez27/'
+								href='https://www.linkedin.com/in/thebryanmartinez/'
 								target='_blank'
 								rel='noopener noreferrer'
 								className='flex items-center justify-center bg-[#0a66c2] rounded-xl py-3 sm:py-2 px-4 font-bold hover:shadow-white/10 hover:shadow-lg hover:bg-white hover:text-[#0a66c2] transition-all'>
