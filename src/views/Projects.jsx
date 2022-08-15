@@ -1,3 +1,5 @@
+import { useState } from 'react'
+import { ButtonForm } from '../components/Button'
 import ResponsiveDiv from '../components/ResponsiveDiv'
 import ProjectCard from '../components/ProjectCard'
 import CommentNowFrontend from '../assets/images/projects/commentnow-frontend-project.webp'
@@ -9,6 +11,12 @@ import PortfolioWebsite from '../assets/images/projects/portfolio-website-projec
 import TwitterUIMirroring from '../assets/images/projects/twitter-ui-mirroring-project.webp'
 
 const Projects = () => {
+	const [loadMore, setLoadMore] = useState(['hidden', 'block'])
+
+	const handleLoadMore = () => {
+		setLoadMore(['block', 'hidden'])
+	}
+
 	return (
 		<section id='projects' className='flex flex-col items-center py-8'>
 			<h2 className='text-3xl font-bold mb-4'>Projects</h2>
@@ -57,13 +65,20 @@ const Projects = () => {
 						info='This is a NodeJS application made with Express and MySQL. This is a REST API that was created for the Prometheus App created with React Native. What this API did is that it fetches data from a MySQL database containing information about clothing products. It includes Tokens for the sign in and validations for the backend.'
 						image={PrometheusBackend}
 					/>
-					<ProjectCard
-						text={['C#', 'AWS', 'SQL Server', 'Python']}
-						title='Camidental Dekstop App'
-						linkTo='https://drive.google.com/file/d/1vEIlmbFW4EKeNlWsP-nX208dHf_mdKpu/view?usp=sharing'
-						info='This is a Dekstop app created for a dental clinic named CamiDental. It was developed by a team of 11 people. It handles the appointments of the patients, the products and inventory that the clinic has. It also handles reports with CrystalReports and the billing of customers. It was connected to the database via AWS and the appointments were also stored in Google Calendar via its API.'
-						image={CamiDental}
-					/>
+					<div className={`${loadMore[0]}`}>
+						<ProjectCard
+							text={['C#', 'AWS', 'SQL Server', 'Python']}
+							title='Camidental Dekstop App'
+							linkTo='https://drive.google.com/file/d/1vEIlmbFW4EKeNlWsP-nX208dHf_mdKpu/view?usp=sharing'
+							info='This is a Dekstop app created for a dental clinic named CamiDental. It was developed by a team of 11 people. It handles the appointments of the patients, the products and inventory that the clinic has. It also handles reports with CrystalReports and the billing of customers. It was connected to the database via AWS and the appointments were also stored in Google Calendar via its API.'
+							image={CamiDental}
+						/>
+					</div>
+				</div>
+			</ResponsiveDiv>
+			<ResponsiveDiv>
+				<div className={`${loadMore[1]} mt-8 mx-auto`}>
+					<ButtonForm clickEvent={handleLoadMore}>Load more</ButtonForm>
 				</div>
 			</ResponsiveDiv>
 		</section>
