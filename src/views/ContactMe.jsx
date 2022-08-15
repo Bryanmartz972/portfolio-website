@@ -58,6 +58,7 @@ const ContactMe = () => {
 									id='name'
 									className='input'
 									type='name'
+									maxLength={50}
 									required
 								/>
 							</div>
@@ -70,6 +71,7 @@ const ContactMe = () => {
 									className='input'
 									type='email'
 									required
+									maxLength={50}
 								/>
 							</div>
 							<div className='input-group'>
@@ -79,6 +81,7 @@ const ContactMe = () => {
 									rows='4'
 									name='text'
 									id='text'
+									maxLength={500}
 									className='input area'
 									type='text'
 									required
