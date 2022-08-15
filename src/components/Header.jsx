@@ -16,7 +16,7 @@ const Header = () => {
 			</nav>
 			<div>
 				<a
-					className='flex bg-secondary p-2 rounded-xl items-center justify-center cursor-pointer hover:text-secondary hover:bg-white'
+					className='flex bg-secondary p-2 rounded-xl items-center justify-center cursor-pointer hover:text-secondary hover:bg-white transition-all'
 					href='#contact-me'>
 					Contact me!
 				</a>
