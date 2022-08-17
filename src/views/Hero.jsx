@@ -19,7 +19,7 @@ const Hero = () => {
 						<Button linkTo={Resume} text={'My Resumé'} />
 					</div>
 				</div>
-				<div className='flex items-center w-[100%] mt-8 lg:mt-0'>
+				<div className='flex items-center mt-8 lg:mt-0'>
 					<img src={GuyVibing} alt='' />
 				</div>
 			</ResponsiveDiv>
