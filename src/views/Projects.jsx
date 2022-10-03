@@ -39,7 +39,7 @@ const Projects = () => {
 					<ProjectCard
 						text={['React', 'TailwindCSS']}
 						title='Portfolio Website'
-						linkTo='https://github.com/thebryanmartinez/portfolio-website'
+						linkTo='https://github.com/thebryanmartinez/thebryanmartinez.github.io'
 						info='This is the portfolio website that you are seing right now. It was made for the purpose of conveying information about me in a different way than a resume. It is a React app made with Vite and Tailwind CSS. For all of the icons I used the react-icons npm package. It uses Pageclip for the form to send messages to my email.'
 						image={PortfolioWebsite}
 					/>
