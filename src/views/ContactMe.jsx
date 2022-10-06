@@ -85,6 +85,7 @@ const ContactMe = () => {
 									className='input area'
 									type='text'
 									required
+									minLength={5}
 								/>
 							</div>
 							<button
