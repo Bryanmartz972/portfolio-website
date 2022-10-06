@@ -25,7 +25,7 @@ const ProjectCard = ({ title, info, text, image, linkTo }) => {
 						return <ProjectCardTech text={tech} key={index} />
 					})}
 				</div>
-				<div className='mt-2 mb-4'>{info}</div>
+				<p className='mt-2 mb-4'>{info}</p>
 			</div>
 			<div className='px-2 pb-4'>
 				<GithubButton linkTo={linkTo} />

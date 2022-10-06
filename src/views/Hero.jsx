@@ -10,15 +10,21 @@ const Hero = () => {
 			className='flex items-center h-screen bg-gradient-to-b from-primary to-background'>
 			<ResponsiveDiv>
 				<div className=''>
-					<span className='font-semibold text-xl'> Hi, I'm </span>{' '}
-					<h1 className='text-secondary font-black text-3xl' data-cy='hero-title'>
-						Bryan Samuel Martínez
+					<h1
+						className='text-secondary font-black text-3xl'
+						data-cy='hero-title'>
+						<p className='text-white font-semibold text-xl'> Hi, I'm </p> Bryan
+						Samuel Martínez
+						<p className=' text-white font-bold text-2xl mb-4'>
+							Fullstack Web Developer & QA Engineer{' '}
+						</p>
 					</h1>
-					<p className='font-bold text-2xl mb-4'>
-						Fullstack Web Developer & QA Engineer{' '}
-					</p>
 					<div className='w-full flex items-center '>
-						<Button linkTo={Resume} text={'My Resumé'} data-cy='hero-resume-button'/>
+						<Button
+							linkTo={Resume}
+							text={'My Resumé'}
+							data-cy='hero-resume-button'
+						/>
 					</div>
 				</div>
 				<div className='flex items-center mt-8 lg:mt-0'>
