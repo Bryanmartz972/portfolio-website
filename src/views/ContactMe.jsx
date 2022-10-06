@@ -51,7 +51,7 @@ const ContactMe = () => {
 							method='post'
 							className='flex flex-col w-full gap-8 mt-8'>
 							<div className='input-group'>
-								<label className='label'>Your Name</label>
+								<label className='label'>Your name</label>
 								<input
 									autoComplete='off'
 									name='name'
