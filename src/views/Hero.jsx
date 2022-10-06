@@ -23,7 +23,7 @@ const Hero = () => {
 						<Button
 							linkTo={Resume}
 							text={'My Resumé'}
-							data-cy='hero-resume-button'
+							dataAttribute='hero-resume-button'
 						/>
 					</div>
 				</div>

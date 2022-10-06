@@ -40,7 +40,7 @@ const ContactMe = () => {
 							<a
 								href='mailto:bryanmartz972@gmail.com'
 								target='_blank'
-								data-cy='contactme-gmail-link'
+								data-cy='contactme-email-link'
 								rel='noopener noreferrer'
 								className='flex items-center justify-center bg-[#eb4336] text-xs sm:text-[16px] rounded-xl py-3 sm:py-2 px-4 font-bold hover:text-[#eb4336] hover:shadow-white/10 hover:shadow-lg hover:bg-white transition-all'>
 								<span className=' mr-2'>
