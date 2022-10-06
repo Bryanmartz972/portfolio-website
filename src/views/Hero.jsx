@@ -11,12 +11,14 @@ const Hero = () => {
 			<ResponsiveDiv>
 				<div className=''>
 					<span className='font-semibold text-xl'> Hi, I'm </span>{' '}
-					<h1 className='text-secondary font-black text-3xl'>
+					<h1 className='text-secondary font-black text-3xl' data-cy='hero-title'>
 						Bryan Samuel Martínez
 					</h1>
-					<p className='font-bold text-2xl mb-4'>Fullstack Web Developer</p>
+					<p className='font-bold text-2xl mb-4'>
+						Fullstack Web Developer & QA Engineer{' '}
+					</p>
 					<div className='w-full flex items-center '>
-						<Button linkTo={Resume} text={'My Resumé'} />
+						<Button linkTo={Resume} text={'My Resumé'} data-cy='hero-resume-button'/>
 					</div>
 				</div>
 				<div className='flex items-center mt-8 lg:mt-0'>

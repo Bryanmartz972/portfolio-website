@@ -16,7 +16,7 @@ import { icons } from '../helpers/iconsImport'
 const Skills = () => {
 	return (
 		<section id='skills' className='flex flex-col items-center py-8'>
-			<h2 className='text-3xl font-bold'>Skills</h2>
+			<h2 className='text-3xl font-bold' data-cy='skills-title'>Skills</h2>
 			<ResponsiveDiv>
 				<div className='flex flex-col mt-4 lg:mt-8 lg:flex-row lg:justify-between lg:gap-20 w-full'>
 					<div className=' flex flex-col p-4 mb-8 lg:mb-0 px-8 lg:p-8 flex-1 bg-primary shadow-xl rounded-3xl'>

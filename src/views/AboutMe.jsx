@@ -8,7 +8,9 @@ const AboutMe = () => {
 	return (
 		<section id='about-me' className='flex flex-col items-center py-8'>
 			<div className='  justify-self-center place-self-center self-center lg:mb-8'>
-				<h2 className='text-3xl font-bold'>About Me</h2>
+				<h2 className='text-3xl font-bold' data-cy='aboutme-title'>
+					About Me
+				</h2>
 			</div>
 			<ResponsiveDiv>
 				<div className='flex flex-col items-center lg:flex-row'>
@@ -35,7 +37,7 @@ const AboutMe = () => {
 					<div className='flex flex-col lg:ml-36 text-md md:text-lg lg:text-xl'>
 						<p className='mb-8'>
 							Hello, my name is Bryan Martínez and currently I'm a senior
-							student in Computer Science at Universidad Catolica de Honduras.
+							student in Computer Science at Universidad Católica de Honduras.
 							From the beginning of my university career I really enjoy
 							programming and developing solutions and answers to problems with
 							the use of tehcnology and programming languages. <br />
@@ -50,13 +52,15 @@ const AboutMe = () => {
 							my knowledge. You can see my certificates in my{' '}
 							<a
 								href='#contact-me'
-								className='text-secondary underline font-bold'>
+								className='text-secondary underline font-bold'
+								data-cy='aboutme-linkedin-link'>
 								LinkedIn
 							</a>{' '}
 							and my projects in my{' '}
 							<a
 								href='#contact-me'
-								className='text-secondary underline font-bold'>
+								className='text-secondary underline font-bold'
+								data-cy='aboutme-github-link'>
 								Github
 							</a>{' '}
 							profile.
