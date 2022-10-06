@@ -14,6 +14,7 @@ module.exports = {
 		'plugin:react/jsx-runtime',
 		'standard',
 		'eslint-config-prettier',
+		'plugin:cypress/recommended',
 	],
 	parserOptions: {
 		ecmaFeatures: {
