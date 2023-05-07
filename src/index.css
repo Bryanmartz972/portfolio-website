@@ -4,41 +4,48 @@
 
 * {
 	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+  scroll-margin-top: 3rem;
 }
 
 /* From uiverse.io by @alexruix */
 .input {
 	width: 100%;
-  height: 44px;
-  background-color: #3d5a80;
-  border-radius: .5rem;
+	height: 44px;
+	background-color: #3d5a80;
+	border-radius: 0.5rem;
 	font-weight: bold;
-  padding: 0 1rem;
-  border: 2px solid transparent;
-  font-size: 1rem;
-  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+	padding: 0 1rem;
+	border: 2px solid transparent;
+	font-size: 1rem;
+	transition: border-color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s,
+		color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s,
+		background 0.2s cubic-bezier(0.25, 0.01, 0.25, 1) 0s;
 }
 
 .area {
 	height: 100%;
-  padding-top: 1rem
+	padding-top: 1rem;
 }
 
 .label {
-  display: block;
-  margin-bottom: .3rem;
-  font-size: .9rem;
-  font-weight: bold;
-  color: #fff;
-  transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
-}
-
-.input:hover, .input:focus, .input-group:hover .input {
+	display: block;
+	margin-bottom: 0.3rem;
+	font-size: 0.9rem;
 	font-weight: bold;
-  outline: none;
-  border-color: #ee6c4d;
+	color: #fff;
+	transition: color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s;
 }
 
-.input-group:hover .label, .input:focus {
-  color: #ee6c4d;
+.input:hover,
+.input:focus,
+.input-group:hover .input {
+	font-weight: bold;
+	outline: none;
+	border-color: #ee6c4d;
+}
+
+.input-group:hover .label,
+.input:focus {
+	color: #ee6c4d;
 }
