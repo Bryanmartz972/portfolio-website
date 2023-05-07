@@ -1,18 +1,19 @@
-import HTML from '../assets/svgs/html.svg'
-import CSS from '../assets/svgs/css3.svg'
-import Figma from '../assets/svgs/figma.svg'
-import Git from '../assets/svgs/git.svg'
-import Github from '../assets/svgs/github.svg'
-import Javascript from '../assets/svgs/javascript.svg'
-import MongoDB from '../assets/svgs/mongodb.svg'
-import NodeJS from '../assets/svgs/node-js.svg'
-import MySQL from '../assets/svgs/mysql.svg'
-import React from '../assets/svgs/react.svg'
-import Postman from '../assets/svgs/postman.svg'
-import SQL from '../assets/svgs/sql.svg'
-import TailwindCSS from '../assets/svgs/tailwind-css.svg'
-import VSCode from '../assets/svgs/visual-studio-code.svg'
-import ReactNative from '../assets/images/react-native.png'
+import HTML from '../assets/icons/html.svg'
+import CSS from '../assets/icons/css3.svg'
+import Figma from '../assets/icons/figma.svg'
+import Git from '../assets/icons/git.svg'
+import Github from '../assets/icons/github.svg'
+import Javascript from '../assets/icons/javascript.svg'
+import MongoDB from '../assets/icons/mongodb.svg'
+import NodeJS from '../assets/icons/node-js.svg'
+import MySQL from '../assets/icons/mysql.svg'
+import React from '../assets/icons/react.svg'
+import Postman from '../assets/icons/postman.svg'
+import SQL from '../assets/icons/sql.svg'
+import TailwindCSS from '../assets/icons/tailwind-css.svg'
+import VSCode from '../assets/icons/visual-studio-code.svg'
+import ReactNative from '../assets/icons/react-native.png'
+import AWS from '../assets/icons/aws.svg'
 
 export const icons = {
 	HTML,
@@ -29,5 +30,6 @@ export const icons = {
 	SQL,
 	TailwindCSS,
 	VSCode,
-  ReactNative
+  ReactNative,
+	AWS
 }

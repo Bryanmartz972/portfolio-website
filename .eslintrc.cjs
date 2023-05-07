@@ -14,6 +14,7 @@ module.exports = {
 		'plugin:react/jsx-runtime',
 		'standard',
 		'eslint-config-prettier',
+		'plugin:cypress/recommended',
 	],
 	parserOptions: {
 		ecmaFeatures: {
@@ -25,5 +26,6 @@ module.exports = {
 	plugins: ['react'],
 	rules: {
 		'no-unused-vars': 'warn',
+		'react/prop-types': ['warn'],
 	},
 }
